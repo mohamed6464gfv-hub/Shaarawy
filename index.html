@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>شعراوي</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- صورة البداية -->
+<div class="hero">
+  <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=1200">
+  <div class="overlay">
+    <h1>🍔 شعراوي</h1>
+    <button class="start-btn" onclick="scrollToMenu()">🔥 شوف المنيو</button>
+  </div>
+</div>
+
+<!-- المنيو -->
+<div id="menu">
+
+<!-- الساندوتشات -->
+<h2>🍔 الساندوتشات</h2>
+<div class="menu">
+
+<div class="card"><img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d"><h3>كبدة</h3><p>15 جنيه</p><button onclick="addToCart('كبدة',15)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1550547660-d9450f859349"><h3>سجق</h3><p>10 جنيه</p><button onclick="addToCart('سجق',10)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1550547660-d9450f859349"><h3>برجر عادي</h3><p>10 جنيه</p><button onclick="addToCart('برجر عادي',10)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1550547660-d9450f859349"><h3>برجر بيض</h3><p>17 جنيه</p><button onclick="addToCart('برجر بيض',17)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1550547660-d9450f859349"><h3>برجر جبنة</h3><p>20 جنيه</p><button onclick="addToCart('برجر جبنة',20)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1550547660-d9450f859349"><h3>برجر ميكس</h3><p>25 جنيه</p><button onclick="addToCart('برجر ميكس',25)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1550547660-d9450f859349"><h3>كفتة</h3><p>14 جنيه</p><button onclick="addToCart('كفتة',14)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1550547660-d9450f859349"><h3>كفتة جريل</h3><p>16 جنيه</p><button onclick="addToCart('كفتة جريل',16)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1550547660-d9450f859349"><h3>سوسيس</h3><p>15 جنيه</p><button onclick="addToCart('سوسيس',15)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1550547660-d9450f859349"><h3>سوسيس جريل</h3><p>17 جنيه</p><button onclick="addToCart('سوسيس جريل',17)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1550547660-d9450f859349"><h3>سوسيس بيض</h3><p>20 جنيه</p><button onclick="addToCart('سوسيس بيض',20)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1550547660-d9450f859349"><h3>سوسيس ميكس</h3><p>25 جنيه</p><button onclick="addToCart('سوسيس ميكس',25)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d"><h3>بانيه عادي</h3><p>10 جنيه</p><button onclick="addToCart('بانيه عادي',10)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d"><h3>بانيه دريس</h3><p>25 جنيه</p><button onclick="addToCart('بانيه دريس',25)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1550547660-d9450f859349"><h3>برجر فراخ</h3><p>17 جنيه</p><button onclick="addToCart('برجر فراخ',17)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d"><h3>شاورما فراخ</h3><p>30 جنيه</p><button onclick="addToCart('شاورما فراخ',30)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d"><h3>استربس</h3><p>25 جنيه</p><button onclick="addToCart('استربس',25)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1585238342024-78d387f4a707"><h3>بطاطس</h3><p>10 جنيه</p><button onclick="addToCart('بطاطس',10)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1585238342024-78d387f4a707"><h3>بطاطس جبنة</h3><p>20 جنيه</p><button onclick="addToCart('بطاطس جبنة',20)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1585238342024-78d387f4a707"><h3>باكيت بطاطس</h3><p>20 جنيه</p><button onclick="addToCart('باكيت بطاطس',20)">اطلب</button></div>
+
+</div>
+
+<!-- السوري -->
+<h2>🌯 السندوتش السوري</h2>
+<div class="menu">
+
+<div class="card"><img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d"><h3>سوري بطاطس</h3><p>20 جنيه</p><button onclick="addToCart('سوري بطاطس',20)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1585238342024-78d387f4a707"><h3>سوري بطاطس جبنة</h3><p>30 جنيه</p><button onclick="addToCart('سوري بطاطس جبنة',30)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d"><h3>سوري شاورما</h3><p>50 جنيه</p><button onclick="addToCart('سوري شاورما',50)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d"><h3>سوري بانيه فرنش</h3><p>45 جنيه</p><button onclick="addToCart('سوري بانيه فرنش',45)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1550547660-d9450f859349"><h3>سوري استربس</h3><p>50 جنيه</p><button onclick="addToCart('سوري استربس',50)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1550547660-d9450f859349"><h3>سوري برجر فراخ</h3><p>35 جنيه</p><button onclick="addToCart('سوري برجر فراخ',35)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d"><h3>سوري بانيه</h3><p>25 جنيه</p><button onclick="addToCart('سوري بانيه',25)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1550547660-d9450f859349"><h3>سوري كفتة</h3><p>30 جنيه</p><button onclick="addToCart('سوري كفتة',30)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1550547660-d9450f859349"><h3>سوري سوسيس</h3><p>45 جنيه</p><button onclick="addToCart('سوري سوسيس',45)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1585238342024-78d387f4a707"><h3>سوري باكيت بطاطس</h3><p>20 جنيه</p><button onclick="addToCart('سوري باكيت بطاطس',20)">اطلب</button></div>
+
+</div>
+
+<!-- الكريب -->
+<h2>🥙 الكريب</h2>
+<div class="menu">
+
+<div class="card"><img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d"><h3>كريب شاورما فراخ</h3><p>75 جنيه</p><button onclick="addToCart('كريب شاورما فراخ',75)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d"><h3>كريب بانيه دريس</h3><p>70 جنيه</p><button onclick="addToCart('كريب بانيه دريس',70)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d"><h3>كريب استربس</h3><p>75 جنيه</p><button onclick="addToCart('كريب استربس',75)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1550547660-d9450f859349"><h3>كريب برجر فراخ</h3><p>50 جنيه</p><button onclick="addToCart('كريب برجر فراخ',50)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d"><h3>كريب بانيه</h3><p>40 جنيه</p><button onclick="addToCart('كريب بانيه',40)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1550547660-d9450f859349"><h3>كريب كفتة</h3><p>50 جنيه</p><button onclick="addToCart('كريب كفتة',50)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1550547660-d9450f859349"><h3>كريب سوسيس</h3><p>50 جنيه</p><button onclick="addToCart('كريب سوسيس',50)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1550547660-d9450f859349"><h3>كريب سجق</h3><p>45 جنيه</p><button onclick="addToCart('كريب سجق',45)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1550547660-d9450f859349"><h3>كريب كبدة</h3><p>50 جنيه</p><button onclick="addToCart('كريب كبدة',50)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1585238342024-78d387f4a707"><h3>كريب بطاطس</h3><p>30 جنيه</p><button onclick="addToCart('كريب بطاطس',30)">اطلب</button></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1550547660-d9450f859349"><h3>كريب برجر</h3><p>40 جنيه</p><button onclick="addToCart('كريب برجر',40)">اطلب</button></div>
+
+</div>
+
+</div>
+
+<!-- السلة -->
+<div class="cart">
+<h3>🛒 الطلب</h3>
+<ul id="cartItems"></ul>
+<p id="total">0 جنيه</p>
+<input id="address" placeholder="اكتب عنوانك">
+<button onclick="sendOrder()">إرسال الطلب</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
